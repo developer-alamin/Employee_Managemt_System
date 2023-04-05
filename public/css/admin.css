@@ -1,0 +1,177 @@
+
+/*lagin page design css start form here*/
+form#loginForm {
+    width: 400px;
+    background-image: radial-gradient(#8987ff, transparent);
+    padding-top: 50px;
+    border-radius: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    box-shadow: 1px 0px 14px 5px #8987ff;
+}
+
+.loginDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/img/mount.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button.UserLogin.form-control {
+    font-weight: bold;
+    color: #3300ff;
+    width: 135px;
+    margin: auto;
+    font-size: 21px;
+    border-radius: 3px 40px;
+    cursor: pointer;
+    border: 3px solid #8291ffc4;
+}
+
+/*lagin page design css end form here*/
+
+/*admin depart css start form here*/
+button.btn.departButton {
+    float: right;
+    border: 2px solid #c4c4ef;
+}
+
+i.fa-edit {
+    width: 100px;
+    font-size: 23px;
+    color: blue;
+    cursor: pointer;
+}
+
+i.fa-trash {
+    font-size: 23px;
+    cursor: pointer;
+    color: #c11616;
+}
+.loading {
+    padding-top: 130px;
+}
+
+.upnothingData img {
+    width: 200px;
+}
+
+.upnothingData {
+    text-align: center;
+}
+
+button#add_employee_btn {
+    width: 100px;
+    padding: 0px;
+    height: 39px;
+}
+button#updateButton {
+    width: 100px;
+    padding: 0px;
+    height: 39px;
+}
+
+.nothingData {
+    text-align: center;
+}
+/*admin depart css end form here*/
+/*admin employee css start form here*/
+
+
+a.nav-link.before:hover::before {
+    content: '';
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: -4px;
+    background: #040404;
+    border-radius: 100%;
+    border: 3px solid #00ff14;
+}
+
+a.nav-link.before {
+    position:relative;
+}
+
+.sb-sidenav-menu-heading h6 {
+    text-align: center;
+    color: #12b91f;
+    background: white;
+    padding: 9px;
+    font-family: auto;
+    font-weight: bold;
+}
+.usersetting h6 {
+    text-align: center;
+    color: #12b91f;
+    background: white;
+    padding: 5px;
+    font-family: auto;
+    font-weight: bold;
+}
+button.btn.addEmployee {
+    float: right;
+    border: 2px solid #2e2eff;
+    font-weight: bold;
+    color: #1414c5a6;
+}
+
+.card-header.employeeCardHeader {}
+
+strong {
+    color: #70ff26eb;
+    font-family: initial;
+}
+
+.employeePreviewImg img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+.UpEmPreviewImg {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+
+label{
+    font-weight: bolder;
+}
+.col-4.statusCollumnDiv {
+    margin-top: 38px;
+}
+
+p.statusdeactive {
+    background: #fd1313;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+p.statusactive {
+    background: green;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.card-body.homeCardBody {
+    text-align: center;
+    font-family: auto;
+    color: blue;
+    font-weight: bold;
+}
+
+.col-4 div.card {
+    background: #c8c7d3e8;
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+}
+/*admin employee css end form here*/
