@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class employeeModel extends Model
+class StudentModel extends Model
 {
-    protected  $table = "employee";
-    protected  $primiaryKey = 'id';
+    public  $table = "student";
+    public  $primiaryKey = 'id';
     public  $incrementing = true;
-    protected  $KeyType = 'int';
+    public  $KeyType = 'int';
     public  $timestamps = true;
 }

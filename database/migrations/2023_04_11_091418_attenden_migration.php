@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class EmployeeAddCollumn extends Migration
+class AttendenMigration extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class EmployeeAddCollumn extends Migration
      */
     public function up()
     {
-        Schema::table('employee', function (Blueprint $table) {
-             $table->string('img')->after('Status');
+        Schema::create('attenden',function(Blueprint $table){
+            $table->id();
+            $table->string('name');
+            $table->bigInteger('roll');
+            $table->string('attenden');
+            $table->string('date');
         });
     }
 

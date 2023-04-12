@@ -1,3 +1,4 @@
+
 $(document).ready(()=>{
   $('.image').change(function(){
     const file = this.files[0];
@@ -26,28 +27,12 @@ $(document).ready(()=>{
   });
 });
 
+/*toastr.options.extendedTimeOut = 1000000; //1000;
+toastr.options.timeOut = 0;
+toastr.options.fadeOut = 250;
+toastr.options.fadeIn = 250;*/
 
 
 
-$(document).ready(function() {
-	$( ".datePicar" ).datepicker({
-	    altField: ".datePicar",
-	    altFormat: "d MM, yy",
-       numberOfMonths: 3,
-      showButtonPanel: true
-	 });
-	$( "#updepartdate" ).datepicker({
-	    altField: "#updepartdate",
-	    altFormat: "d MM, yy",
-       numberOfMonths: 3,
-      showButtonPanel: true
-	 });
-
-	  toastr.options.extendedTimeOut = 3000; //1000;
-      toastr.options.timeOut = 3000;
-      toastr.options.fadeOut = 3000;
-      toastr.options.fadeIn = 3000;
-
-})
 
 

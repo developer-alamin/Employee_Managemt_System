@@ -1,4 +1,4 @@
 @extends('layout.app')
 @section('content')
-<h4>Home Page</h4>
+<h4>View Report</h4>
 @endsection()

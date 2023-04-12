@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class loginModel extends Model
+class crouseModel extends Model
 {
-   protected  $table = "login";
+    protected  $table = "crouse";
     protected  $primiaryKey = 'id';
     public  $incrementing = true;
     protected  $KeyType = 'int';
-    public  $timestamps = true;
+    public  $timestamps = false;
 }

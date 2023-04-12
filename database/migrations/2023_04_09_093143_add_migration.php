@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class LoginMigration extends Migration
+class AddMigration extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,10 @@ class LoginMigration extends Migration
      */
     public function up()
     {
-       Schema::create('login',function(Blueprint $table)
-       {
-           $table->id();
-            $table->string('userId');
-            $table->string('password');
-            $table->timestamps();
-       });
+        Schema::table('depart',function(Blueprint $table)
+        {
+            $table->string('departid')->after('id');
+        });
     }
 
     /**

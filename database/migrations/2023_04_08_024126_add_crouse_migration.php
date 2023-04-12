@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddCollumnMigrations extends Migration
+class AddCrouseMigration extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class AddCollumnMigrations extends Migration
      */
     public function up()
     {
-       Schema::table('depart', function (Blueprint $table) {
-             $table->string('date')->after('departName');
+        Schema::create('crouse',function(Blueprint $table)
+        {
+            $table->id();
+            $table->string('name');
+            $table->string('descrip');
+            $table->date('date');
         });
     }
 
